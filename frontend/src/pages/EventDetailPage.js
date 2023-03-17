@@ -1,4 +1,18 @@
+import { useParams, Link } from "react-router-dom";
+
 function EventDetailPage() {
-  return <h1>Event</h1>;
+  const params = useParams();
+
+  return (
+    <>
+      <h1>Event</h1>
+      <p>{params.eventId}</p>
+      <p>
+        <Link to=".." relative="path">
+          back
+        </Link>
+      </p>
+    </>
+  );
 }
 export default EventDetailPage;
