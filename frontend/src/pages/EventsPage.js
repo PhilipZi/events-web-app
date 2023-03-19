@@ -20,6 +20,7 @@ export async function loader() {
 
   if (!response.ok) {
     // return { isError: true, message: "Could not fetch events." };
+
     throw { message: "Could not fetch events." };
   } else {
     return response;
