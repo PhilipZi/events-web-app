@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"sdfsdf","image":"https://theperfectevent.com/wp-content/uploads/2020/01/Main-Scroll-2.jpg","date":"2023-03-12","description":"sdfsdf","id":"4b953166-e535-449c-a527-be1cb5955442"},{"title":"sdfsdf","image":"https://theperfectevent.com/wp-content/uploads/2020/01/Main-Scroll-2.jpg","date":"2023-03-03","description":"sdfsdf","id":"0d60f822-f0f9-496d-9c98-d60b493e9fe2"},{"title":"sdf","image":"https://theperfectevent.com/wp-content/uploads/2020/01/Main-Scroll-2.jpg","date":"2023-03-11","description":"sfsdf","id":"c6419c2b-2fce-4182-af84-81500abb297e"},{"title":"test event","image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheperfectevent.com%2F&psig=AOvVaw1NRrYjthNn3q3GcVrWBY4v&ust=1679401760352000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMiEtp3B6v0CFQAAAAAdAAAAABAJ","date":"2023-03-09","description":"test","id":"b4698a18-02b5-4801-94d2-6e78c41971e6"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
