@@ -1,4 +1,4 @@
-import classes from "./NewsletterSignup.module.css";
+import classes from "./NewsLetterSignup.module.css";
 
 function NewsletterSignup() {
   return (
