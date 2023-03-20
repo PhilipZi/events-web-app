@@ -5,7 +5,7 @@ function EventForm({ method, event }) {
   function cancelHandler() {}
 
   return (
-    <Form className={classes.form}>
+    <Form method="post" className={classes.form}>
       <p>
         <label htmlFor="title">Title</label>
         <input
