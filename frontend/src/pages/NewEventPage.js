@@ -1,4 +1,6 @@
+import EventForm from "../components/EventForm";
+
 function NewEventPage() {
-  return <h1>create new Event</h1>;
+  return <EventForm />;
 }
 export default NewEventPage;
