@@ -2,10 +2,21 @@ import { redirect } from "react-router-dom";
 
 export function getAuthToken() {
   const token = localStorage.getItem("token");
+
+  if (!token) {
+    return null;
+  }
+
+  const tokenDuration = getTokenDuration();
+
+  if (tokenDuration < 0) {
+    return "EXPIRED";
+  }
+
   return token;
 }
 
-export function tokenloader() {
+export function tokenLoader() {
   return getAuthToken();
 }
 
