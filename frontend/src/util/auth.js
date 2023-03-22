@@ -24,7 +24,7 @@ export function getAuthToken() {
   return token;
 }
 
-export function tokenloader() {
+export function tokenLoader() {
   return getAuthToken();
 }
 
