@@ -17,7 +17,7 @@ import AuthenticationPage, {
   action as authAction,
 } from "./pages/Authentication";
 import { action as actionLogout } from "./pages/Logout";
-import { checkAuthLoader, tokenLoader } from "./util/auth";
+import { checkAuthLoader, tokenloader } from "./util/auth";
 
 const router = createBrowserRouter([
   {
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     id: "root",
-    loader: tokenLoader,
+    loader: tokenloader,
     children: [
       { index: true, element: <HomePage /> },
       {
